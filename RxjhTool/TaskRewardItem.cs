@@ -3,11 +3,11 @@ using System.ComponentModel;
 namespace RxjhTool
 {
 	[DefaultProperty("物品ID")]
-	public class 任务奖励物品类
+	public class TaskRewardItems
 	{
-		private int int_0;
+		private int _int0;
 
-		private int int_1;
+		private int _int1;
 
 		[Description("物品ID")]
 		[Category("基本")]
@@ -15,11 +15,11 @@ namespace RxjhTool
 		{
 			get
 			{
-				return int_0;
+				return _int0;
 			}
 			set
 			{
-				int_0 = value;
+				_int0 = value;
 			}
 		}
 
@@ -29,11 +29,11 @@ namespace RxjhTool
 		{
 			get
 			{
-				return int_1;
+				return _int1;
 			}
 			set
 			{
-				int_1 = value;
+				_int1 = value;
 			}
 		}
 	}
