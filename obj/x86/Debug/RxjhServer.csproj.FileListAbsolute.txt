@@ -1,0 +1,126 @@
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.csprojAssemblyReference.cache
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.Form1.resources
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.UserList.resources
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\RxjhServer.exe.config
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\RxjhServer.exe
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\RxjhServer.pdb
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\LuaInterface.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\Newtonsoft.Json.Net20.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\System.Data.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\System.Design.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\System.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\System.Drawing.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\System.Management.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\bin\Debug\System.Windows.Forms.dll
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.exe
+O:\破解\2020\6月\25\Dumps\RxjhServer-cleaned.csproj\obj\x86\Debug\RxjhServer.pdb
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\RxjhServer.exe.config
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\RxjhServer.exe
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\RxjhServer.pdb
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\LuaInterface.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\Newtonsoft.Json.Net20.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\System.Data.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\System.Design.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\System.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\System.Drawing.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\System.Management.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\bin\Debug\System.Windows.Forms.dll
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.Form1.resources
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.UserList.resources
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.exe
+O:\破解\2020\6月\25\Dumps\新建文件夹\obj\x86\Debug\RxjhServer.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\RxjhServer.exe.config
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\RxjhServer.exe
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\RxjhServer.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\System.Data.dll
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\System.Design.dll
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\System.dll
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\System.Drawing.dll
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\System.Management.dll
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\bin\Debug\System.Windows.Forms.dll
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.Form1.resources
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.UserList.resources
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.exe
+C:\Users\Administrator\Desktop\新建文件夹 (3)\19.0-GS源码\obj\x86\Debug\RxjhServer.pdb
+D:\系统\桌面\贤19\bin\Debug\RxjhServer.exe.config
+D:\系统\桌面\贤19\bin\Debug\RxjhServer.exe
+D:\系统\桌面\贤19\bin\Debug\RxjhServer.pdb
+D:\系统\桌面\贤19\bin\Debug\System.Data.dll
+D:\系统\桌面\贤19\bin\Debug\System.Design.dll
+D:\系统\桌面\贤19\bin\Debug\System.dll
+D:\系统\桌面\贤19\bin\Debug\System.Drawing.dll
+D:\系统\桌面\贤19\bin\Debug\System.Management.dll
+D:\系统\桌面\贤19\bin\Debug\System.Windows.Forms.dll
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.Form1.resources
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.UserList.resources
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.exe
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.pdb
+D:\系统\桌面\贤19\bin\Debug\lua51.dll
+D:\系统\桌面\贤19\obj\x86\Debug\RxjhServer.csprojAssemblyReference.cache
+D:\系统\桌面\新建文件夹\19\bin\Debug\RxjhServer.exe.config
+D:\系统\桌面\新建文件夹\19\bin\Debug\RxjhServer.exe
+D:\系统\桌面\新建文件夹\19\bin\Debug\RxjhServer.pdb
+D:\系统\桌面\新建文件夹\19\bin\Debug\System.Data.dll
+D:\系统\桌面\新建文件夹\19\bin\Debug\System.Design.dll
+D:\系统\桌面\新建文件夹\19\bin\Debug\System.dll
+D:\系统\桌面\新建文件夹\19\bin\Debug\System.Drawing.dll
+D:\系统\桌面\新建文件夹\19\bin\Debug\System.Management.dll
+D:\系统\桌面\新建文件夹\19\bin\Debug\System.Windows.Forms.dll
+D:\系统\桌面\新建文件夹\19\bin\Debug\lua51.dll
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.csprojAssemblyReference.cache
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.Form1.resources
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.UserList.resources
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.exe
+D:\系统\桌面\新建文件夹\19\obj\x86\Debug\RxjhServer.pdb
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\RxjhServer.exe.config
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\RxjhServer.exe
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\RxjhServer.pdb
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\System.Data.dll
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\System.Design.dll
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\System.dll
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\System.Drawing.dll
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\System.Management.dll
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\System.Windows.Forms.dll
+C:\Users\Administrator\Desktop\GS19.0源码\bin\Debug\lua51.dll
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.Form1.resources
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.UserList.resources
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.exe
+C:\Users\Administrator\Desktop\GS19.0源码\obj\x86\Debug\RxjhServer.pdb
+C:\Users\Admin\Downloads\source\source\bin\Debug\RxjhServer.exe.config
+C:\Users\Admin\Downloads\source\source\bin\Debug\RxjhServer.exe
+C:\Users\Admin\Downloads\source\source\bin\Debug\RxjhServer.pdb
+C:\Users\Admin\Downloads\source\source\bin\Debug\System.Data.dll
+C:\Users\Admin\Downloads\source\source\bin\Debug\System.Design.dll
+C:\Users\Admin\Downloads\source\source\bin\Debug\System.dll
+C:\Users\Admin\Downloads\source\source\bin\Debug\System.Drawing.dll
+C:\Users\Admin\Downloads\source\source\bin\Debug\System.Management.dll
+C:\Users\Admin\Downloads\source\source\bin\Debug\System.Windows.Forms.dll
+C:\Users\Admin\Downloads\source\source\bin\Debug\lua51.dll
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.Form1.resources
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.UserList.resources
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.csproj.CopyComplete
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.exe
+C:\Users\Admin\Downloads\source\source\obj\x86\Debug\RxjhServer.pdb

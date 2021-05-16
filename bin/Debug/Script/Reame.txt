@@ -1,0 +1,333 @@
+任务函数为
+MissIon+任务ID
+示例
+领取小助手任务的任务ID为9998
+这样我们就可以随便建立一个后缀为.lua的文件在里面加入
+function MissIon9998(UserWorldId,QuestId, CzId, RwJdId)
+	if CzId==1 then
+ 		SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+	elseif CzId==2 then
+		SendMissionMsg(UserWorldId,QuestId, 21, RwJdId)
+	elseif CzId==3 then
+	 	SendMissionMsg(UserWorldId,QuestId, 31, RwJdId)
+	elseif CzId==5 then
+	 	SendMissionMsg(UserWorldId,QuestId, 51, RwJdId)
+	end
+end
+任务ID=QuestId
+操作ID=CzId
+任务阶段=RwJdId
+
+打开任务时操作ID为1
+接受任务时操作ID为2
+拒绝任务时操作ID为3
+关闭任务时操作ID为5
+
+if CzId==1 then
+ 	SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+这里面的11为条件符合时显示的任务内容
+12为条件不符合时显示的任务内容
+
+这样我就只要在里面加上判断,比如这个任务的限制等级为10级
+if CzId==1 then
+	--GetPlayer这个为得到人物对象的API接口
+	local Player = GetPlayer(UserWorldId)
+	--判断人物的等级是不是小于10
+	--如果小于10就发送不符合的内容
+	--相反就发送符合的内容
+	if Player.Player_Level<10 then
+ 		SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+	else
+		SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+	end
+end
+这样就完成了点开任务的步骤，接下来到了是否接受任务了。
+
+如果是拒绝或者是关闭我们不用去管他直接
+if CzId==3 then
+	 SendMissionMsg(UserWorldId,QuestId, 31, RwJdId)
+elseif CzId==5 then
+	 SendMissionMsg(UserWorldId,QuestId, 51, RwJdId)
+end
+
+
+当点了接受任务后
+if CzId==2 then
+	--GetPlayer得到人物对象的API接口
+	local Player = GetPlayer(UserWorldId)
+	--判断人物的等级是不是小于10
+	--如果小于10就发送不符合的内容
+	--相反就发送符合的内容
+	if Player.Player_Level<10 then
+ 		SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+	else
+		--设置任务阶段为1
+		RwJdId=1
+		--AddQuest添加任务的API接口
+		--AddQuest(UserWorldId,任务Id,任务阶段)
+		AddQuest(UserWorldId,QuestId,RwJdId)
+		SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+	end
+end
+
+到这里就完成了任务的第一个阶段
+这时你点开游戏的任务窗口就会有
+
+快去领取小助手吧。
+
+
+再打开NPC点这个任务
+
+这时又到了操作ID为1
+
+if CzId==1 then
+	--这里我们新加入了任务阶段的判断
+	--为1说明我们以接受了当前的任务，任务进行到了第一个阶段
+	if RwJdId==1 then 
+		--GetPackage得到人物的包裹空位的位置，范围0-36，如果为-1说明没有空位了
+		local weiz=GetPackage(UserWorldId)
+		if weiz==-1 then 
+			SendSysMsg(UserWorldId,"装备栏没有空位了，请清理", 9, "系统提示")
+			SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+			return 
+		end
+		--到了这里就到了奖励物品了
+		--AddItme增加物品API接口，AddItme(UserWorldId,物品ID,位置,数量)
+		AddItme(UserWorldId,1700101,weiz,1)
+		SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+	else
+	 	--GetPlayer这个为得到人物对象的API接口
+		local Player = GetPlayer(UserWorldId)
+		--判断人物的等级是不是小于10
+		--如果小于10就发送不符合的内容
+		--相反就发送符合的内容
+		if Player.Player_Level<10 then
+	 		SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+		else
+			SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+		end
+	end
+end
+
+这样到了最后我们的这个任务就算完成了
+function MissIon9998(UserWorldId,QuestId, CzId, RwJdId)
+	if CzId==1 then
+		--这里我们新加入了任务阶段的判断
+		--为1说明我们以接受了当前的任务，任务进行到了第一个阶段
+		if RwJdId==1 then 
+			--GetPackage得到人物的包裹空位的位置，范围0-36，如果为-1说明没有空位了
+			local weiz=GetPackage(UserWorldId)
+			if weiz==-1 then 
+				SendSysMsg(UserWorldId,"装备栏没有空位了，请清理", 9, "系统提示")
+				SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+				return 
+			end
+			--到了这里就到了奖励物品了
+			--AddItme增加物品API接口，AddItme(UserWorldId,物品ID,位置,数量)
+			AddItme(UserWorldId,1700101,weiz,1)
+			SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+		else
+		 	--GetPlayer这个为得到人物对象的API接口
+			local Player = GetPlayer(UserWorldId)
+			--判断人物的等级是不是小于10
+			--如果小于10就发送不符合的内容
+			--相反就发送符合的内容
+			if Player.Player_Level<10 then
+		 		SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+			else
+				SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+			end
+		end
+	if CzId==2 then
+		--GetPlayer得到人物对象的API接口
+		local Player = GetPlayer(UserWorldId)
+		--判断人物的等级是不是小于10
+		--如果小于10就发送不符合的内容
+		--相反就发送符合的内容
+		if Player.Player_Level<10 then
+	 		SendMissionMsg(UserWorldId,QuestId, 12, RwJdId)
+		else
+			--设置任务阶段为1
+			RwJdId=1
+			--AddQuest添加任务的API接口
+			--AddQuest(UserWorldId,任务Id,任务阶段)
+			AddQuest(UserWorldId,QuestId,RwJdId)
+			SendMissionMsg(UserWorldId,QuestId, 11, RwJdId)
+		end
+	elseif CzId==3 then
+	 	SendMissionMsg(UserWorldId,QuestId, 31, RwJdId)
+	elseif CzId==5 then
+	 	SendMissionMsg(UserWorldId,QuestId, 51, RwJdId)
+	end
+end
+
+
+
+
+
+下面介绍一下服务端的系统API接口
+增加任务
+void AddQuest(int UserWorldId, int 任务ID, int 任务阶段)
+
+学习武功
+武功类型=0为攻击武功 位置范围0-31
+武功类型=1为辅助武功 位置范围0-28
+void AddSkill(int UserWorldId, int 武功类型, int 位置)
+
+学习升天武功
+武功类型=3 位置范围0-17
+void AddStKongfu(int UserWorldId, int 武功类型, int 位置)
+
+学习人物气功
+void AddQigong(int UserWorldId, int 气功位置)
+
+
+增加物品
+void AddItme(int UserWorldId, int 物品ID, int 空位, int 数量)
+
+增加带属性物品
+void AddItmeProp(int UserWorldId, int 物品ID, int 位置, int 数量, int 物品属性0, int 物品属性1, int 物品属性2, int 物品属性3, int 物品属性4, int 初级附魂, int 中级附魂, int 进化, int 绑定)
+
+增加任务物品
+void AddQuestItme(int UserWorldId, int 物品ID, int 数量)
+
+
+删除物品
+void DelItme(int UserWorldId, int 位置, int 数量)
+
+物品使用
+void UpUseItme(int UserWorldId, int 位置, int 数量)
+
+得到人物包裹一个位置，范围0-36，如果为-1说明没有空位了
+int GetPackage(int UserWorldId)
+
+得到人物包裹一个位置数组，如果数组大小为0说明没有空位了
+List<int> GetPackages(int UserWorldId,int 数量)
+
+得到任务的阶段，为0表示没有这个任务
+int GetQuestLevel(int UserWorldId,int 任务ID)
+
+得到任务物品，为false表示 没有这个任务物品或是数量不够
+bool GetQuestItme(int UserWorldId, int 物品ID, int 数量)
+
+得到物品包裹里的物品的位置，返回如果为-1说明没有没有这个物品
+int GetPakItme(int UserWorldId, int 物品ID)
+
+得到一个物品对象，属性可以对应数据库中TBL_XWWL_ITEM
+ItmeClass GetWorldItme(int 物品ID)
+
+得到一个人物对象,对象属性以后再详细说明
+Players GetPlayerThis(int UserWorldId)
+
+设置人物等级
+void SetPlayerLevel(int UserWorldId,int 等级)
+
+void 设置人物元宝(int UserWorldId, int 元宝数,int 操作类型)
+
+设置人物会员
+void 设置人物会员(int UserWorldId, int 会员时间)月数
+
+设置人物正邪，和几转
+void SetPlayerTransfer(int UserWorldId, int 人物正邪, int 转)
+
+发送更新武功和状态数据
+void UpGongFu(int UserWorldId)
+
+发送更新金钱和负重数据
+void UpMoney(int UserWorldId)
+
+发送更新经验和历练数据
+void UpExp(int UserWorldId)
+
+发送更新已装备物品数据
+void UpYzbItme(int UserWorldId)
+
+
+发送任务提示数据
+SendMissionMsg(int UserWorldId, int 任务ID, int 操作ID, int 任务阶段ID)
+
+发送消息
+SendSysMsg(int UserWorldId, string 消息内容, int 消息类型, string 名称)
+
+发送学习技能后的提示
+SendKongfuMsg(int UserWorldId)
+
+发送系统公告
+SendNoticeMsg(string 消息内容, int 消息类型)
+
+
+
+
+
+
+
+
+
+
+
+
+示例1
+发送多个物品
+local weizs=GetPackages(UserWorldId,5)
+if weizs.Count<5 then 
+	SendSysMsg(UserWorldId,"装备栏没有空位了，请清理,留出5个空位", 9, "系统提示")
+	return 
+end
+AddItmeProp(UserWorldId,100200001,weizs[0],1,1010001910,70000050,70000050,70000050,70000050,5,0,2,0)
+AddItmeProp(UserWorldId,100200001,weizs[1],1,1010001910,70000050,70000050,70000050,70000050,5,0,2,0)
+AddItmeProp(UserWorldId,100200001,weizs[2],1,1010001910,70000050,70000050,70000050,70000050,5,0,2,0)
+AddItmeProp(UserWorldId,100200001,weizs[3],1,1010001910,70000050,70000050,70000050,70000050,5,0,2,0)
+AddItmeProp(UserWorldId,100200001,weizs[4],1,1010001910,70000050,70000050,70000050,70000050,5,0,2,0)
+
+
+
+
+示例2
+local weiz1=GetPakItme(UserWorldId,999000020)
+	if weiz1==-1 then 
+		SendSysMsg(UserWorldId,"没有物品 『热』 字 ", 9, "系统提示")
+		return 
+	end
+
+local weiz2=GetPakItme(UserWorldId,999000021)
+	if weiz2==-1 then 
+		SendSysMsg(UserWorldId,"没有物品 『血』 字 ", 9, "系统提示")
+		return 
+	end
+local weiz3=GetPakItme(UserWorldId,999000022)
+	if weiz3==-1 then 
+		SendSysMsg(UserWorldId,"没有物品 『江』 字 ", 9, "系统提示")
+		return 
+	end
+local weiz4=GetPakItme(UserWorldId,999000023)
+	if weiz4==-1 then 
+		SendSysMsg(UserWorldId,"没有物品 『湖』 字 ", 9, "系统提示")
+		return 
+	end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
